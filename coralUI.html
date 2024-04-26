@@ -41,3 +41,17 @@
 
     $(´.cards´).cardlayout ();
 -->
+
+<input type="text" name="tags" placeholder="Tags" class="tagManager" />
+
+<!--
+    $(".tagManager").tagsManager({prefilled: ["Pisa", "Rome"] })
+-->
+
+<span>Pisa</span>
+<a title="Removing tag" tagidtoremove="0" id="myRemover_0" class="myTagRemover" href="#">x</a>
+
+<span id="myTag_1" class="myTag"><span>Rome</span>
+<a title="Removing tag" tagidtoremove="1" id="myRemover_1" class="myTagRemover" href="#">x</a></span>
+
+<input type="text" data-original-title="" class="input-medium tagManager" placeholder="Tags" name="tags" data-provide="typehead" data-items="6" autocomplete="off">

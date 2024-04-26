@@ -47,3 +47,9 @@
 <input type="hidden" value="oldtitle" name="newtitle@ValueFrom">
 
 <input type="hidden" value="/node/prop" name="title@CopyFrom">
+
+%><sling:include resourceType="geometrixx/components/image/img"/><%
+
+PropertyIterator properties = currentNode.getProperties();
+
+

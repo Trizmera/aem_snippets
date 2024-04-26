@@ -1,0 +1,43 @@
+<!--
+    .btn {
+        font-size: @baseFontSize;
+        line-height: @baseLineHeight;
+        .buttonBackground(@btnBackground,
+                          @btnBackgroundHighLight,
+                          @grayDark, 0 1px 1px rgba(255, 255, 255, .75));
+    }
+-->
+
+<button class="btn btn-large btn-primary" type="button">Large Button</button>
+<button class="btn btn-large" type="button">Large Button</button>
+
+<!--
+    @btnBackgroundHighlight:         darken(@white, 10%);
+    @btnPrimaryBackgroundHighlight:  spin(@btnPrimaryBackground, 20%);
+    @baseFontSize:                   17px;
+    @baseFontFamily:                 @sansFontFamily;
+-->
+
+<ul data-column-width="220" data-layout="card" class="cards">
+    <li class="item">
+        <div class="thumbnail">
+            <img src="/a.thumb.319.319..png" href="/a.html">
+            <div class="caption">
+                <h4>Toolbar</h4>
+                <p><small>toolbar</small><br></p>
+            </div>
+        </div>
+    </li>
+    <li class="item">
+        <div class="caption">
+            <h4>Toolbar</h4>
+            <p><small>toolbar</small><br></p>
+        </div>
+    </li>
+</ul>
+
+<!--
+    jQuery plugin call
+
+    $(´.cards´).cardlayout ();
+-->
